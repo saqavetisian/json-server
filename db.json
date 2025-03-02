@@ -235,6 +235,134 @@
         { "x": 520, "y": -0.1 }
       ],
       "summary": "ECG shows normal sinus rhythm with evidence of acute anterior wall myocardial infarction based on ST segment elevation in precordial leads."
+    },
+	{
+      "id": "doc_normal_ecg",
+      "fileName": "normal_sinus_rhythm.pdf",
+      "uploadDate": "2024-03-01T10:30:00Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [
+          {"time": 0, "value": 0.2},
+          {"time": 0.1, "value": 0.3},
+          {"time": 0.2, "value": 1.2},
+          {"time": 0.3, "value": 1.8},
+          {"time": 0.4, "value": 0.5}
+        ],
+        "anomalies": []
+      },
+      "measurements": {
+        "heartRate": 72,
+        "prInterval": 160,
+        "qrsInterval": 90,
+        "qtInterval": 380,
+        "qtcInterval": 400
+      },
+      "technicalAnalysis": "High-quality ECG recording with clear signal and minimal noise.",
+      "summary": "Normal sinus rhythm with regular rate and normal intervals. No significant abnormalities detected.",
+      "recommendations": [
+        "Continue routine cardiac monitoring",
+        "Maintain healthy lifestyle"
+      ]
+    },
+    {
+      "id": "doc_afib",
+      "fileName": "atrial_fibrillation.jpg",
+      "uploadDate": "2024-03-02T15:45:00Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [
+          {"time": 0, "value": 0.1},
+          {"time": 0.1, "value": 1.5},
+          {"time": 0.2, "value": 0.8},
+          {"time": 0.3, "value": 1.2},
+          {"time": 0.4, "value": 0.3}
+        ],
+        "anomalies": [
+          {
+            "start": 0.1,
+            "end": 0.3,
+            "type": "Irregular Rhythm",
+            "description": "Irregular RR intervals suggestive of atrial fibrillation"
+          }
+        ]
+      },
+      "measurements": {
+        "heartRate": 110,
+        "prInterval": null,
+        "qrsInterval": 95,
+        "qtInterval": 390,
+        "qtcInterval": 420
+      },
+      "technicalAnalysis": "Good quality recording with some baseline wandering.",
+      "summary": "Atrial fibrillation with rapid ventricular response. Irregular rhythm with absent P waves.",
+      "recommendations": [
+        "Urgent cardiology consultation",
+        "Consider rate control medication",
+        "Anticoagulation assessment"
+      ]
+    },
+    {
+      "id": "doc_stemi",
+      "fileName": "acute_mi.png",
+      "uploadDate": "2024-03-03T08:20:00Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [
+          {"time": 0, "value": 0.1},
+          {"time": 0.1, "value": 2.5},
+          {"time": 0.2, "value": 3.0},
+          {"time": 0.3, "value": 2.8},
+          {"time": 0.4, "value": 0.2}
+        ],
+        "anomalies": [
+          {
+            "start": 0.1,
+            "end": 0.3,
+            "type": "ST Elevation",
+            "description": "Significant ST elevation in anterior leads"
+          }
+        ]
+      },
+      "measurements": {
+        "heartRate": 95,
+        "prInterval": 180,
+        "qrsInterval": 110,
+        "qtInterval": 410,
+        "qtcInterval": 440
+      },
+      "technicalAnalysis": "Clear recording with minimal artifact.",
+      "summary": "Acute anterior STEMI with significant ST elevation in V2-V4.",
+      "recommendations": [
+        "Immediate cardiac catheterization",
+        "Activate STEMI protocol",
+        "Emergency cardiology consultation"
+      ]
+    },
+    {
+      "id": "doc_processing",
+      "fileName": "recent_upload.pdf",
+      "uploadDate": "2024-03-04T16:15:00Z",
+      "status": "processing"
+    },
+    {
+      "id": "doc_error",
+      "fileName": "corrupted_file.jpg",
+      "uploadDate": "2024-03-04T14:30:00Z",
+      "status": "error",
+      "error": "Unable to process ECG image due to poor quality or file corruption",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "measurements": null,
+      "technicalAnalysis": "Unable to analyze: File appears to be corrupted or of insufficient quality",
+      "summary": "Analysis failed due to technical issues with the uploaded file",
+      "recommendations": [
+        "Please upload a new, clear copy of the ECG",
+        "Ensure the image is well-lit and properly aligned",
+        "Use PDF format if available"
+      ]
     }
   ],
   "assistants": [
