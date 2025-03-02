@@ -1,0 +1,290 @@
+{
+  "documents": [
+    {
+      "id": "d71a8769-484c-4053-af29-4779f8ed2b74",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T19:31:26.378Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "summary": "No summary available.",
+      "technicalAnalysis": "No technical analysis provided.",
+      "chartData": []
+    },
+    {
+      "id": "1db3f952-609a-4072-a95c-8d19ccae0e26",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T20:16:08.480Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "Error parsing analysis.",
+      "chartData": [],
+      "summary": "Could not generate summary."
+    },
+    {
+      "id": "ce447279-b80d-48f1-8b0c-f3df5f5da56b",
+      "fileName": "ECG-Sample-Report.pdf",
+      "uploadDate": "2025-03-01T20:18:22.692Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "Error parsing analysis.",
+      "chartData": [],
+      "summary": "Could not generate summary."
+    },
+    {
+      "id": "7a870318-f061-487b-8c97-c82bd52bf069",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T20:36:04.817Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "Error parsing analysis.",
+      "chartData": [],
+      "summary": "Could not generate summary."
+    },
+    {
+      "id": "6f9e8787-ea11-4f7b-aea9-629bd3809d88",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T20:44:14.511Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "No technical analysis provided.",
+      "chartData": [],
+      "summary": "No summary available."
+    },
+    {
+      "id": "416c02a9-65f7-4205-8b72-831e674821f1",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:16:04.500Z",
+      "status": "processing"
+    },
+    {
+      "id": "3663962e-9d92-4d2f-8202-271b8cce2b15",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:22:36.965Z",
+      "status": "processing"
+    },
+    {
+      "id": "caa33f10-170a-4533-80b9-46c8b14ebc68",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:30:50.540Z",
+      "status": "processing"
+    },
+    {
+      "id": "57164f05-ca9e-4cc0-9842-47d51905850e",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:40:23.995Z",
+      "status": "processing"
+    },
+    {
+      "id": "e1244b8f-e279-4262-852a-a2c28c85f031",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:44:43.806Z",
+      "status": "processing"
+    },
+    {
+      "id": "7f85fbaf-75df-4930-b0bc-1c1aaf193973",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:46:42.329Z",
+      "status": "processing"
+    },
+    {
+      "id": "c3f1eeec-472f-4e85-abfa-f8b10d0efb13",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:51:27.537Z",
+      "status": "processing"
+    },
+    {
+      "id": "8578da1a-9a87-4c97-9119-3edad306e697",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:56:54.466Z",
+      "status": "processing"
+    },
+    {
+      "id": "dcf0b4d2-2e0e-4f2e-9b94-c03dc012ff38",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:58:23.033Z",
+      "status": "processing"
+    },
+    {
+      "id": "ef39e999-cc3c-427e-93b7-6e8599d5ea48",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T21:59:20.786Z",
+      "status": "processing"
+    },
+    {
+      "id": "997aa4b4-b058-4751-a72a-d267d05d6730",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T22:01:11.245Z",
+      "status": "processing"
+    },
+    {
+      "id": "759e927b-27c0-447b-b671-3f6ee8ac3c79",
+      "fileName": "ecg.jpg",
+      "uploadDate": "2025-03-01T22:20:00.000Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "It seems the extraction process did not yield the expected detailed ECG trace data points or identifiable peaks from the contours found in the image. The method used to process the image and detect the ECG trace might require fine-tuning, or the image itself might not have been suitable for this type of automated analysis due to its quality, scale, or the presence of artifacts.\n\nGiven the current limitations, I'm unable to provide a detailed analysis of the ECG trace based on the available data. For a comprehensive ECG analysis, it's crucial to have a clear and detailed trace, which might require manual analysis or more advanced image processing techniques that can better handle the complexities of ECG images.\n\nShould you have more information about specific features of interest in the ECG, such as heart rate, intervals, or anomalies noted, I could offer more tailored advice or analysis based on that information.",
+      "chartData": [],
+      "summary": "Failed to parse analysis response.",
+      "measurements": null
+    },
+    {
+      "id": "d08774de-30c2-4a23-a797-3de4a979691f",
+      "fileName": "ECG-Sample-Report.pdf",
+      "uploadDate": "2025-03-01T22:22:06.963Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "It seems there was an issue identifying the image file you've uploaded. This could be due to a missing file extension or unsupported file format. To proceed with the ECG analysis, could you please verify the file and re-upload it with an appropriate file extension (e.g., `.jpg`, `.png`)?",
+      "chartData": [],
+      "summary": "Failed to parse analysis response.",
+      "measurements": null
+    },
+    {
+      "id": "0fc681dd-fac5-4b9b-9639-cf828ec9d987",
+      "fileName": "ECG-Sample-Report.pdf",
+      "uploadDate": "2025-03-01T22:34:12.572Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [],
+        "anomalies": []
+      },
+      "technicalAnalysis": "I'm currently facing difficulties processing the PDF document to extract images for the ECG analysis due to technical limitations in the system. Unfortunately, without being able to access the contents of the PDF directly, I'm unable to provide the ECG trace data points and subsequent analysis.\n\nGiven these limitations, if you have the ability to extract the ECG images from the PDF and re-upload them directly as image files, I can proceed with the analysis of each ECG trace. Alternatively, if there's specific information or a different format you could provide that aligns with what the system can process, that would be another viable path forward.",
+      "chartData": [],
+      "summary": "Failed to parse analysis response.",
+      "measurements": null
+    },
+    {
+      "id": "5457e1d0-ab96-49a1-8eca-6227768628c3",
+      "fileName": "ECG-Sample-Report.pdf",
+      "uploadDate": "2025-03-01T22:44:41.724Z",
+      "status": "processing"
+    },
+    {
+      "id": "sample-ecg-1",
+      "fileName": "normal-ecg.jpg",
+      "uploadDate": "2025-03-01T21:51:38.000Z",
+      "status": "completed",
+      "ecgData": {
+        "data": [
+          { "time": 0, "value": 0.1 },
+          { "time": 40, "value": 0.1 },
+          { "time": 80, "value": 0.2 },
+          { "time": 120, "value": 1.2 },
+          { "time": 160, "value": -0.3 },
+          { "time": 200, "value": 2.5 },
+          { "time": 240, "value": -0.1 },
+          { "time": 280, "value": 0.1 },
+          { "time": 320, "value": 0.1 },
+          { "time": 360, "value": 0.2 },
+          { "time": 400, "value": 1.0 },
+          { "time": 440, "value": -0.2 },
+          { "time": 480, "value": 2.3 },
+          { "time": 520, "value": -0.1 }
+        ],
+        "anomalies": [
+          {
+            "start": 180,
+            "end": 220,
+            "type": "ST Elevation",
+            "description": "Significant ST segment elevation indicating possible myocardial infarction"
+          }
+        ]
+      },
+      "measurements": {
+        "heartRate": 75,
+        "prInterval": 160,
+        "qrsInterval": 100,
+        "qtInterval": 380,
+        "qtcInterval": 400
+      },
+      "technicalAnalysis": "Normal sinus rhythm with regular R-R intervals. QRS complexes are of normal duration and morphology. ST segments show elevation in leads V2-V4. T waves are upright in all leads.",
+      "chartData": [
+        { "x": 0, "y": 0.1 },
+        { "x": 40, "y": 0.1 },
+        { "x": 80, "y": 0.2 },
+        { "x": 120, "y": 1.2 },
+        { "x": 160, "y": -0.3 },
+        { "x": 200, "y": 2.5 },
+        { "x": 240, "y": -0.1 },
+        { "x": 280, "y": 0.1 },
+        { "x": 320, "y": 0.1 },
+        { "x": 360, "y": 0.2 },
+        { "x": 400, "y": 1.0 },
+        { "x": 440, "y": -0.2 },
+        { "x": 480, "y": 2.3 },
+        { "x": 520, "y": -0.1 }
+      ],
+      "summary": "ECG shows normal sinus rhythm with evidence of acute anterior wall myocardial infarction based on ST segment elevation in precordial leads."
+    }
+  ],
+  "assistants": [
+    [
+      {
+        "id": "asst_6D7Bzil70MhAfD8o3BxeSHRH",
+        "created_at": 1740865608215
+      }
+    ],
+    [
+      {
+        "id": "asst_GQOWPohiCeaMflGrnljBJ7Oq",
+        "created_at": 1740866223294
+      }
+    ],
+    [
+      {
+        "id": "asst_so2ESrnFkSC6WYQyCf9vkJEO",
+        "created_at": 1740866308872
+      }
+    ],
+    [
+      {
+        "id": "asst_nNJT9nTYlUyyM2Qv4gTcYme3",
+        "created_at": 1740866366143
+      }
+    ],
+    [
+      {
+        "id": "asst_Wei0bZ9ChbMKqJhRoIeTOrwO",
+        "created_at": 1740866477007
+      }
+    ],
+    [
+      {
+        "id": "asst_wwbZnzFek2XTPC1MXceYEjWz",
+        "created_at": 1740867608073
+      }
+    ],
+    [
+      {
+        "id": "asst_Vhiwv54KbgEit8o7DuvqqUzo",
+        "created_at": 1740867746948
+      }
+    ],
+    [
+      {
+        "id": "asst_xkjZhmRhYDKb0mjH2GXdHaE0",
+        "created_at": 1740868474254
+      }
+    ]
+  ]
+}
